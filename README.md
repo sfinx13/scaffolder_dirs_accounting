@@ -10,13 +10,13 @@ Generate the skeleton of the directories which makes it possible to store the do
 
 > [Linux] Activate virtual environment
 ```
-source env/bin/activate 
+source .env/bin/activate 
 ```
 
 
 > [Windows] Activate virtual environment
 ```
-source env/bin/activate 
+.env/Scripts/activate
 ```
 
 > Install packages with pip
