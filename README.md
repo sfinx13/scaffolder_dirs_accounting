@@ -24,6 +24,11 @@ source .env/bin/activate
 pip install -r requirements.txt
 ```
 
+> Init file configuration
+```
+mv config/settings.ini.dist config/settings.ini
+```
+
 > Lint with flake
 ```
 $ flake8 .
